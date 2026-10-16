@@ -4,6 +4,10 @@ import { STORAGE_KEYS, readStorage, removeStorage, writeStorage } from './storag
 // token 有效期：24 小时
 const TOKEN_TTL = 24 * 60 * 60 * 1000
 
+// 演示账号（后续接入真实后端时替换为服务端校验）
+const DEMO_USERNAME = 'admin'
+const DEMO_PASSWORD = 'admin123'
+
 /**
  * 登录：校验用户名密码后生成模拟 token。
  * 注意：不存储明文密码，仅存储 token。
@@ -12,7 +16,10 @@ export async function login(username: string, password: string): Promise<AuthTok
   if (!username || !password) {
     throw new Error('用户名或密码不能为空')
   }
-  // TODO: 后续接入真实后端时替换为服务端校验
+  // 模拟服务端校验
+  if (username !== DEMO_USERNAME || password !== DEMO_PASSWORD) {
+    throw new Error('用户名或密码错误')
+  }
   const token: AuthToken = {
     token: crypto.randomUUID(),
     expiresAt: Date.now() + TOKEN_TTL,
