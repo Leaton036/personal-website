@@ -37,9 +37,15 @@ export const seedProfile: Profile = {
 
 /** 示例技能 */
 export const seedSkills: Skill[] = [
-  { id: 'skill-1', category: '前端', name: 'React', icon: 'react', level: 90 },
-  { id: 'skill-2', category: '前端', name: 'TypeScript', icon: 'typescript', level: 85 },
-  { id: 'skill-3', category: '后端', name: 'Node.js', icon: 'node', level: 80 },
+  { id: 'skill-1', category: '前端', name: 'React', icon: 'atom', level: 90 },
+  { id: 'skill-2', category: '前端', name: 'TypeScript', icon: 'braces', level: 85 },
+  { id: 'skill-3', category: '前端', name: 'TailwindCSS', icon: 'palette', level: 88 },
+  { id: 'skill-4', category: '后端', name: 'Node.js', icon: 'server', level: 82 },
+  { id: 'skill-5', category: '后端', name: 'Python', icon: 'terminal', level: 75 },
+  { id: 'skill-6', category: '后端', name: 'MySQL', icon: 'database', level: 70 },
+  { id: 'skill-7', category: '工具', name: 'Git', icon: 'git-branch', level: 85 },
+  { id: 'skill-8', category: '工具', name: 'Docker', icon: 'container', level: 65 },
+  { id: 'skill-9', category: '工具', name: 'Figma', icon: 'pen-tool', level: 60 },
 ]
 
 /** 示例项目 */
