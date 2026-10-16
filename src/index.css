@@ -7,6 +7,8 @@
   --color-text: #e6eaf2;
   --color-muted: #8b94a7;
   --color-accent: #3b82f6;
+  /* 深一号强调色：用于实底按钮背景，保证白字对比度达 AA */
+  --color-accent-strong: #2563eb;
   --color-border: #1f2937;
 
   --radius-card: 14px;

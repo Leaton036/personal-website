@@ -6,7 +6,7 @@ import type { Profile } from '@/types'
 
 // CTA 按钮统一样式，保证三个按钮视觉一致
 const primaryLinkClass =
-  'inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-accent px-6 text-base font-medium text-white transition-colors hover:bg-accent/85'
+  'inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-accent-strong px-6 text-base font-medium text-white transition-colors hover:bg-accent-strong/85'
 const secondaryLinkClass =
   'inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-border bg-surface px-6 text-base font-medium text-text transition-colors hover:border-accent/40 hover:bg-border/40'
 
