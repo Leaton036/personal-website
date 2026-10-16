@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* 深色主题设计变量（Tailwind v4 @theme 生成对应工具类） */
+@theme {
+  --color-bg: #0b0f1a;
+  --color-surface: #131a2b;
+  --color-text: #e6eaf2;
+  --color-muted: #8b94a7;
+  --color-accent: #3b82f6;
+  --color-border: #1f2937;
+
+  --radius-card: 14px;
+}
+
+/* 全局基础样式 */
+:root {
+  color-scheme: dark;
+  background-color: #0b0f1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0b0f1a;
+  color: #e6eaf2;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 尊重用户减少动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
