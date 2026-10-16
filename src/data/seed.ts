@@ -6,18 +6,33 @@ export const seedProfile: Profile = {
   name: '你的名字',
   title: '全栈开发工程师',
   avatar: '',
-  bio: '热爱用代码创造价值，专注于构建现代化的 Web 应用。',
+  bio: '热爱用代码创造价值，专注于构建现代化的 Web 应用。拥有多年前后端开发经验，擅长性能优化与前端工程化建设。',
   email: 'hello@example.com',
   social: [{ platform: 'GitHub', url: 'https://github.com' }],
   experiences: [
     {
-      company: '示例公司',
-      role: '前端工程师',
+      company: '示例科技公司',
+      role: '高级前端工程师',
       period: '2024 - 至今',
-      desc: '负责核心产品的前端架构与开发。',
+      desc: '负责核心产品的前端架构设计与性能优化，主导组件库与工程化建设。',
+    },
+    {
+      company: '示例互联网公司',
+      role: '前端工程师',
+      period: '2022 - 2024',
+      desc: '参与多个大型项目开发，从 0 到 1 搭建前端工程，推动团队代码规范落地。',
+    },
+    {
+      company: '示例创业团队',
+      role: '全栈开发（实习）',
+      period: '2021 - 2022',
+      desc: '参与产品早期版本开发，负责前后端基础功能与数据看板实现。',
     },
   ],
-  education: [{ school: '示例大学', degree: '计算机科学与技术', period: '2020 - 2024' }],
+  education: [
+    { school: '示例大学', degree: '计算机科学与技术 · 本科', period: '2017 - 2021' },
+    { school: '示例高级中学', degree: '理科', period: '2014 - 2017' },
+  ],
 }
 
 /** 示例技能 */
