@@ -71,11 +71,10 @@ export default function Home() {
           看项目
           <ArrowRight size={18} />
         </Link>
-        {/* TODO: 简历文件就绪后改为触发下载（如指向 /resume.pdf） */}
-        <button type="button" className={secondaryLinkClass} title="简历暂未上传">
+        <a href="/resume.pdf" download className={secondaryLinkClass}>
           <Download size={18} />
           下载简历
-        </button>
+        </a>
         <Link to="/contact" className={secondaryLinkClass}>
           <Mail size={18} />
           联系我
