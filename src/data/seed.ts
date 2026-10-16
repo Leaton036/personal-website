@@ -3,11 +3,11 @@ import { STORAGE_KEYS, readStorage, writeStorage } from '@/api'
 
 /** 示例个人信息 */
 export const seedProfile: Profile = {
-  name: '你的名字',
+  name: '宋丽婷',
   title: '全栈开发工程师',
   avatar: '',
   bio: '热爱用代码创造价值，专注于构建现代化的 Web 应用。拥有多年前后端开发经验，擅长性能优化与前端工程化建设。',
-  email: 'hello@example.com',
+  email: '2637118106@qq.com',
   social: [{ platform: 'GitHub', url: 'https://github.com' }],
   experiences: [
     {
@@ -30,8 +30,7 @@ export const seedProfile: Profile = {
     },
   ],
   education: [
-    { school: '示例大学', degree: '计算机科学与技术 · 本科', period: '2017 - 2021' },
-    { school: '示例高级中学', degree: '理科', period: '2014 - 2017' },
+    { school: '大连海事大学', degree: '计算机科学与技术 · 本科', period: '2023-2027' },
   ],
 }
 
